@@ -1,8 +1,8 @@
 PKG_NAME = haproxy
-PKG_VERS = 1.5.14
+PKG_VERS = 1.6.5
 PKG_EXT = tar.gz
 PKG_DIST_NAME = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
-PKG_DIST_SITE = http://www.haproxy.org/download/1.5/src
+PKG_DIST_SITE = http://www.haproxy.org/download/1.6/src
 PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
 DEPENDS = cross/openssl cross/zlib
